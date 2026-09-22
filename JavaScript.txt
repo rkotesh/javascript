@@ -56,6 +56,16 @@ for-in loop:
 is mainly used for iterate over keys and properties of an object.
 
 
+Function
+
+is a block of code or reusable block of code designed to perform a specific task 
+syntax: 
+
+function func_name (parameters) {
+	// statements
+}
+
+
 
 
 
