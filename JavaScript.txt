@@ -65,23 +65,61 @@ function func_name (parameters) {
 	// statements
 }
 
+function with parameters:
+function with return type:
+
+Arrow Function:
+	modern js provides arrow function 
+
+Q:
+a college student want to calculate grade based on marks, write a function that makes as input and returns 
+a = 90+, b = 75+, c = 60+, fail = below 60.
+
+Q:
+ATM should allow withdraw only if the balance is sufficient, create a function that checks wheather withdraw is possible. 
+
+Q: 
+employee receives a 10% bonus on their salary, write a function to calculate the bonus amount. 
+
+Scope:
+determines whether where a variable can be accessed 
+1. global
+2. functional
+3. block
+
+Arrays
+stores multiple values in a single variable.
+syntax: 
+let array = [2, 4, 5];
+
+Important Methods
+Method		Definition
+push() -> add element at end
+pop() -> remove element from end
+shift() -> removes element from the beginning
+unshift() -> add the element at the beginning
+slice() -> extract or copy a portion of an array 
+includes() -> checks whether the element exist
+indexOf() -> find the index of an element 
+join() -> convert an element into a string
+concat() -> combines two or more arrays
+push() -> 
 
 
 
+Advance array methods
+
+1. map() -> create a new array populated with the result of calling a provided function on every element.
+
+2. filter() -> used to create new array containing only elements that satisfy the condition.
+
+3. reduce() -> used to reduce all array elements into a single value
+
+4. find() -> find the first element and it returns it which satisfy the condition, if no element matches it returns undefined.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+Application Program Interface 
 
 
 
