@@ -134,3 +134,169 @@ for (let key in student){
     console.log(key, ":", student[key]);
 }
 
+// functions
+
+function greet (name){
+    console.log("HI, " + name);
+}
+
+greet("Ram");
+
+function add(a, b){
+    return a + b;
+}
+let m = add(2, 0);
+
+console.log(m);
+
+// arrow function
+const add1 = (a, b) => {
+    return a + b;
+};
+
+//const add = (a, b) => a + b;
+
+/*Q:
+a college student want to calculate grade based on marks, write a function that makes as input and returns 
+a = 90+, b = 75+, c = 60+, fail = below 60.*/
+function grades(marks){
+    if (marks >= 90){
+        console.log("A");
+    }
+    else if (marks >= 75 && marks <= 90){
+        console.log("B");
+    }
+    else if (marks >= 60 && marks <= 75) {
+        console.log("C");
+    }
+    else {
+        console.log("Fail");
+    }
+}
+grades(marks = 98);
+
+
+// Q:
+// ATM should allow withdraw only if the balance is sufficient, create a function that checks wheather withdraw is possible. 
+function amountChecking(balance, amount){
+    if(amount <= balance){
+        return "Sufficient Balance";
+    }
+    else {
+        return "Insufficient Balance";
+    }
+}
+
+console.log(amountChecking(1000, 300));
+
+//Q: employee receives a 10% bonus on their salary, write a function to calculate the bonus amount 
+function bonusAmount(salary){
+    return salary = 0.10;
+}
+console.log(bonusAmount(500000));
+
+
+//Scope
+
+let company = "Rolla";
+
+function employeeDetails() {
+    let employeeName = "Ram";
+
+    console.log("Company :", company);
+    console.log("Employee :", employeeName);
+
+    if(true) {
+        let salary = 5000;
+        let department = "IT";
+
+        console.log("Salary : ", salary);
+        console.log("Department :", department);
+    }
+}
+employeeDetails();
+
+
+// arrays
+let l = [10, 100];
+
+for (let i of l){
+    console.log(i);
+}
+
+console.log(l);
+
+// methods of array
+let numbers = [10, 20, 40, 50, 60];
+
+numbers.push(40);
+console.log(numbers);
+numbers.pop();
+console.log(numbers);
+numbers.shift();
+console.log(numbers);
+numbers.unshift(80);
+console.log(numbers);
+console.log(numbers.includes(10));
+console.log(numbers.indexOf(20));
+
+
+let fruits1 = ['Apples', 'Banana', 'Mango'];
+console.log(fruits1);
+let result1 = fruits1.join(" | ");
+console.log(result1);
+
+let numbers1 = [10, 20, 30];
+let numbers2 = [40, 50, 60];
+let result2 = numbers1.concat(numbers2);
+console.log(result2);
+
+// reverse and solve
+let arr = [10, 20, 30, 40];
+arr.reverse();
+console.log(arr);
+arr.sort();
+console.log(arr);
+
+//advance array methods
+// map()
+const numbers0 = [1, 2, 4, 5, 6];
+const double = numbers0.map(num => num ** 2);
+console.log(numbers0);
+console.log(double);
+
+// filter()
+let result = numbers1.filter(function(num){
+    return num > 10;
+}
+);
+console.log(result);
+
+// reduce
+let num = [0, 80, 60, 40];
+let sum = num.reduce(function(total, num){    //function(accumulation, element) -> to be stored.
+    return total + num;
+}, 0);
+console.log(sum);
+
+//find()
+let resultse = num.find(function(num){
+    return num > 30;
+})
+console.log(resultse)
+
+//replace
+
+
+
+
+
+
+//objects
+
+//promises
+//async-wait
+//fetch
+
+
+
