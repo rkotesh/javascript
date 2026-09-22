@@ -1,0 +1,83 @@
+JavaScript is a high-level language, interpreted programming language used to make web pages interactive & dynamic.
+it can be used for web dev, frontend dev, backend with node, api, mobile applications, desktop application.
+
+comments 
+1. single line -> //
+2. multi line -> /* */
+
+variables: is a named memory location used to store data.
+
+types :-
+
+1. let -> uses let when the value can be changed.
+2. const - fixed
+
+
+Data Types:
+
+String, num, bool, undefined, null.
+
+type of Operator -> used to determine the type of value.
+
+Operators:
+
+1. Arithmetic -> =, -, *, /, %, **
+
+2. comparison -> >, <, <=, >=, ===, !==, ==
+	are usually used to compare two values, result is always a Boolean value either true, or false
+== -> checks the values are equal or not.
+ex: 10 == "10" -> true
+=== -> checks the values are equal and the type of it.
+ex: 10==="10" -> false
+!== -> checks whether the values are not equal
+ex: 10!== 20 -> true
+
+3. Logical -> &&, ||, !
+	used to combine or reverse condition. they return true or false.
+
+4. assignment -> =, +=, -=, *=, /=, %=
+	
+
+Conditional statements: if, if-else, else-if, nested if
+
+Ternary Operator: is the short form of if else 
+syntax:- condition ? value : value
+
+Switch Case:
+	
+Loops:
+a loop is used to execute the block of code repeatedly as long as the specific condition is satisfied
+
+// for-of & for-in
+for-of loop:
+is mainly used to get the values from and iterable such as an arrays, strings.
+
+for-in loop:
+is mainly used for iterate over keys and properties of an object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
